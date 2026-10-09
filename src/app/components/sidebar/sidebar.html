@@ -1,21 +1,27 @@
-<nav>
-  <h2>Inventa</h2>
+<aside class="sidebar">
 
-  <ul>
-    <li>
-      <a routerLink="/">Dashboard</a>
-    </li>
+  <div class="sidebar-logo">
+    <h2>Inventa</h2>
+  </div>
 
-    <li>
-      <a routerLink="/produtos">Produtos</a>
-    </li>
+  <nav class="sidebar-menu">
 
-    <li>
-      <a routerLink="/movimentacoes">Movimentações</a>
-    </li>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      Dashboard
+    </a>
 
-    <li>
-      <a routerLink="/categorias">Categorias</a>
-    </li>
-  </ul>
-</nav>
+    <a routerLink="/produtos" routerLinkActive="active">
+      Produtos
+    </a>
+
+    <a routerLink="/movimentacoes" routerLinkActive="active">
+      Movimentações
+    </a>
+
+    <a routerLink="/categorias" routerLinkActive="active">
+      Categorias
+    </a>
+
+  </nav>
+
+</aside>
