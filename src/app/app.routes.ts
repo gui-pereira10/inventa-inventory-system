@@ -4,6 +4,7 @@ import { Dashboard } from './pages/dashboard/dashboard';
 import { Produtos } from './pages/produtos/produtos';
 import { Movimentacoes } from './pages/movimentacoes/movimentacoes';
 import { Categorias } from './pages/categorias/categorias';
+import { Sobre } from './pages/sobre/sobre';
 
 export const routes: Routes = [
   {
@@ -21,5 +22,9 @@ export const routes: Routes = [
   {
     path: 'categorias',
     component: Categorias
+  },
+  {
+    path: 'sobre',
+    component: Sobre
   }
 ];
