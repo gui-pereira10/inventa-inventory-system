@@ -1,0 +1,15 @@
+.dashboard-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.dashboard-second-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
